@@ -1,4 +1,5 @@
-- name: Install Node.js 16
+- name: Install Node.js
+      NODEJS_VERSION: "16"
   hosts: all
   become: true
   tasks:
